@@ -59,8 +59,9 @@
 			//comment
 			function handlePlayMusic() {
 				const musicElement = document.getElementById("music");
-				console.dir(musicElement);
+				
 				musicElement.play();
+				musicElement.loop = true;
 			}
 
 			var settings = {
