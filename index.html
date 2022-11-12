@@ -53,13 +53,13 @@
 			<source src="cami.mp3" type="audio/mp3" />
 		</audio>
 
-		<canvas id="pinkboard"></canvas>
+		<canvas onclick="handlePlayMusic()" id="pinkboard"></canvas>
 		<h1>Bác Hoan chúc Cami chơi vui =))</h1>
 		<script>
 			//comment
 			function handlePlayMusic() {
 				const musicElement = document.getElementById("music");
-				
+
 				musicElement.play();
 				musicElement.loop = true;
 			}
